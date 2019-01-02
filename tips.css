@@ -1,0 +1,39 @@
+#rightDiv.img{
+    max-height :100px;
+    max-width: 100px;
+    float:right;
+}
+
+p{
+
+    font-family:georgia;
+    font-size: 20px;
+}
+
+h1{
+    font-weight: bolder;
+    text-decoration-color: red;
+}
+
+h2{
+ font-weight: bolder;
+ text-decoration-color: red;
+}   
+
+h3{
+ font-weight: bolder;
+ text-decoration-color: red;
+}   
+
+
+li{
+    font-family:georgia;
+    font-size: 18px;
+}    
+
+#hedpic img{
+    max-height: 200px;
+    max-width: 600px;
+    
+    vertical-align: top;
+}
