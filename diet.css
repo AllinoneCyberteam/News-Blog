@@ -1,0 +1,33 @@
+/*#leftDiv.img{
+    max-height 100px;
+    max-width: 100px;
+    float:right;
+}*/
+
+#rightDiv.img{
+    max-height 70px;
+    max-width: 70px;
+    float:right;
+}
+
+p{
+
+    font-family:georgia;
+    font-size: 20px;
+}
+
+h1{
+    font-weight: bolder;
+    text-decoration-color: red;
+}
+
+h2{
+ font-weight: bolder;
+ text-decoration-color: red;
+}   
+
+li{
+    font-family:georgia;
+    font-size: 18px;
+}    
+    
