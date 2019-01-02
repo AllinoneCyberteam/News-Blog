@@ -1,0 +1,189 @@
+#rightDiv.img{
+    max-height :100px;
+    max-width: 100px;
+    float:right;
+}
+
+p{
+
+    font-family:georgia;
+    font-size: 20px;
+}
+
+h1{
+    font-weight: bolder;
+    text-decoration-color: red;
+}
+
+h2{
+    font-weight: bolder;
+    text-decoration-color: red;
+}
+
+
+h4{
+ font-weight: bolder;
+ text-decoration-color: red;
+ font-family:Papyrus,fantasy;
+}   
+
+
+li{
+    font-family:georgia;
+    font-size: 18px;
+}    
+
+#hedpic img{
+    max-height: 200px;
+    max-width: 600px;
+    
+    vertical-align: top;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+#welcomediv{
+    background-color: #e8e8e8;
+    float:left;
+    width: 70%;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#leftDiv{
+    background-color: #e8e8e8;
+    float:left;
+    padding: 15px;
+    width: 25%;
+    height: 270px;
+    border: 2px solid;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#leftDiv img{
+    max-height: 800px;
+    max-width: 600px;
+    font: right;
+}
+#welcomediv h2 {
+    position: relative;
+       
+    animation: myMove 5s infinite;
+-webkit-animation: myMove 5s infinite;
+   -moz-animation: myMove 5s infinite;
+}
+
+#newsletter{
+    background-color: #e8e8e8;
+    float:left;
+    width: 20%;
+    margin-bottom: 3 0px;
+    padding: 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.fadeIn{
+    opacity:0;
+    animation: fadeIn ease-in 1;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    
+animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+    
+    animation-duration: 1s;
+   -webkit- animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+    
+@keyframes fadeOut {from {opacity:1;}to{opacity:0;}}
+@-webkit-keyframes fadeOut {from {opacity:1;}to{opacity:0;}}
+@-moz-keyframes fadeOut {from {opacity:1;}to{opacity:0;}}
+
+.fadeOut{
+    opacity:1;
+    animation: fadeOut ease-in 1;
+    -webkit-animation: fadeOut ease-in 1;
+    -moz-animation: fadeOut ease-in 1;
+    
+animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+    
+    animation-duration: 1s;
+   -webkit- animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+.myfadeOut:hover{
+     opacity:1;
+    animation: fadeOut ease-in 1;
+    -webkit-animation: fadeOut ease-in 1;
+    -moz-animation: fadeOut ease-in 1;
+    
+animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+    
+    animation-duration: 1s;
+   -webkit- animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+/*move*/
+
+@keyframes myMove{
+    0% {left:0px;}
+    25% {left:225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100%{left: 0px;}
+    
+}
+@-webkit-keyframes myMove{
+    0% {left:0px;}
+    25% {left:225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100%{left: 0px;}
+    
+}
+@-moz-keyframes myMove{
+    0% {left:0px;}
+    25% {left:225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100%{left: 0px;}
+    
+}
+
+@-moz-keyframes myMove{
+    0% {left:0px;}
+    25% {left:225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100%{left: 0px;}
+    
+}
+
+@-moz-keyframes myMove{
+    0% {left:0px;}
+    25% {left:225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100%{left: 0px;}
+    
+}
+
+    
